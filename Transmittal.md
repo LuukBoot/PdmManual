@@ -12,6 +12,7 @@ When viewing a transmittal in SOLIDWORKS PDM, the "Contains" tab shows which fil
 
 If a referenced file has its own references (a second layer), those nested files are **not** included in the transmittal. This is visually indicated by a **red cross**(see picture below). In other words, the transmittal includes only the files it directly "contains" and skips any files deeper in the reference tree.
 ![ContainsTab](/Resources/Containstab.png)
+
 ## Interface Overview
 
 The transmittal form is divided into two main sections:
@@ -45,7 +46,6 @@ See picture below:
 
 ![TemplateTRNForm](/Resources/TemplateTRNForm.png)
 
-
 - **Purpose**: Create a **new transmittal**.
 - **Function**:
   - Opens the **TemplateTrn** window (see screenshot below).
@@ -69,6 +69,8 @@ See picture below:
   By default, the export folder is the same directory where the files were selected.  
   Use the **Browse** button to select a different location if needed.  
   This is helpful when organizing exports by client or delivery batch.
+
+  ❗ The folder needs to be inside the pdm vault.
 
 ℹ️ Once all information is filled out, click **OK** to proceed with the new transmittal creation.
 
